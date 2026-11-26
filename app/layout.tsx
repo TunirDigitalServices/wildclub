@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://vercel.app'),
   title: 'WILD CLUB TUNISIE | Camping Authentique & Summer in December',
   description:
     'Rejoins la communauté outdoor tunisienne Wild Club (@wildclub.tn). Pré-inscription à l’édition Summer in December et espace sponsoring.',
