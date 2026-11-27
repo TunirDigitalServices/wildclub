@@ -27,16 +27,16 @@ export default function Footer() {
 
           {/* Navigation rapide */}
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs font-medium text-stone-300">
-            <a href="#event" className="hover:text-orange-400 transition">
+            <a href="#event" className="hover:text-[#F5C518] transition">
               Summer in December
             </a>
-            <a href="#inscription" className="hover:text-orange-400 transition">
+            <a href="#inscription" className="hover:text-[#F5C518] transition">
               Inscription
             </a>
-            <a href="#communaute" className="hover:text-orange-400 transition">
+            <a href="#communaute" className="hover:text-[#F5C518] transition">
               Communauté
             </a>
-            <a href="#sponsors" className="hover:text-orange-400 transition">
+            <a href="#sponsors" className="hover:text-[#F5C518] transition">
               Sponsors
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
               href="https://instagram.com"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-stone-200 hover:text-orange-400 transition font-medium"
+              className="inline-flex items-center gap-1.5 text-stone-200 hover:text-[#F5C518] transition font-medium"
             >
               <svg
                 xmlns="http://w3.org"
@@ -69,9 +69,9 @@ export default function Footer() {
 
             <a
               href="mailto:wildclub.tn@gmail.com"
-              className="inline-flex items-center gap-1.5 text-stone-200 hover:text-orange-400 transition font-medium"
+              className="inline-flex items-center gap-1.5 text-stone-200 hover:text-[#F5C518] transition font-medium"
             >
-              <Mail className="w-4 h-4 text-#F5C518" />
+              <Mail className="w-4 h-4 text-[#F5C518]" />
               <span>wildclub.tn@gmail.com</span>
             </a>
           </div>
