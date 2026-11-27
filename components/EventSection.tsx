@@ -34,7 +34,7 @@ export default function EventSection() {
         {/* En-tête de l'événement */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
-            <span className="text-#F5C518 font-bold text-sm uppercase tracking-widest">
+            <span className="#F5C518 font-bold text-sm uppercase tracking-widest">
               Édition Spéciale
             </span>
             <h2 className="text-3xl sm:text-5xl font-black mt-2">
@@ -43,11 +43,11 @@ export default function EventSection() {
           </div>
           <div className="flex flex-wrap gap-4 text-sm text-stone-300">
             <span className="inline-flex items-center gap-2 bg-stone-900 px-4 py-2 rounded-lg border border-stone-800">
-              <Calendar className="w-4 h-4 text-orange-400" /> Décembre 2026 (2
+              <Calendar className="w-4 h-4 #F5C518" /> Décembre 2026 (2
               Jours / 1 Nuit)
             </span>
             <span className="inline-flex items-center gap-2 bg-stone-900 px-4 py-2 rounded-lg border border-stone-800">
-              <MapPin className="w-4 h-4 text-orange-400" /> Côte Sauvage (Cap
+              <MapPin className="w-4 h-4 #F5C518" /> Côte Sauvage (Cap
               Serrat / Haouaria)
             </span>
           </div>
@@ -64,7 +64,7 @@ export default function EventSection() {
         {/* Programme en 3 étapes */}
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           <div className="bg-[#1E1812] p-7 rounded-2xl border border-stone-800">
-            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
+            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 #F5C518 flex items-center justify-center font-black text-lg mb-5">
               01
             </div>
             <h3 className="text-xl font-bold mb-3">
@@ -78,7 +78,7 @@ export default function EventSection() {
           </div>
 
           <div className="bg-[#1E1812] p-7 rounded-2xl border border-stone-800">
-            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
+            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 #F5C518 flex items-center justify-center font-black text-lg mb-5">
               02
             </div>
             <h3 className="text-xl font-bold mb-3">La Soirée : Feu & Vibe</h3>
@@ -90,7 +90,7 @@ export default function EventSection() {
           </div>
 
           <div className="bg-[#1E1812] p-7 rounded-2xl border border-stone-800">
-            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
+            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 #F5C518 flex items-center justify-center font-black text-lg mb-5">
               03
             </div>
             <h3 className="text-xl font-bold mb-3">
@@ -130,7 +130,7 @@ export default function EventSection() {
               <button
                 type="button"
                 onClick={() => setMemberSubmitted(false)}
-                className="text-orange-400 text-sm underline"
+                className="#F5C518 text-sm underline"
               >
                 Inscrire une autre personne
               </button>
