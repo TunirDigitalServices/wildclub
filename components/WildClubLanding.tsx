@@ -17,9 +17,9 @@ export default function WildClubLanding() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
           {/* Signature Logo style affiche */}
           <a href="#" className="flex flex-col leading-none group">
-            <span className="font-script text-[#F5C518] text-lg sm:text-xl -mb-1">
+            {/* <span className="font-script text-[#F5C518] text-lg sm:text-xl -mb-1">
               Life Hits Different With
-            </span>
+            </span> */}
             <span className="font-display tracking-wider text-2xl sm:text-3xl text-[#FFFDF7]">
               WILD CLUB
             </span>
@@ -100,7 +100,9 @@ export default function WildClubLanding() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="font-script text-3xl sm:text-4xl text-[#F5C518] mb-2">
-            Life Hits Different With Wild Club
+            Life Hits Different With <span className="font-display tracking-wider text-2xl sm:text-3xl text-[#FFFDF7]">
+              WILD CLUB
+            </span>
           </p>
 
           <h1 className="font-serif font-black text-4xl sm:text-6xl md:text-7xl tracking-tight mb-6 leading-[1.08] text-[#FFFDF7]">
