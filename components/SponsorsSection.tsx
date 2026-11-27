@@ -27,13 +27,13 @@ export default function SponsorsSection() {
   return (
     <section
       id="sponsors"
-      className="py-20 bg-[#0F1512] text-stone-100 border-t border-stone-800/70"
+      className="py-20 bg-[#14100C] text-stone-100 border-t border-stone-800/70"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête + Téléchargement PDF */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-14">
           <div className="max-w-2xl">
-            <span className="text-orange-500 font-bold text-sm uppercase tracking-widest">
+            <span className="text-#F5C518 font-bold text-sm uppercase tracking-widest">
               Partenariats & Marques
             </span>
             <h2 className="text-3xl sm:text-5xl font-black mt-2">
@@ -60,7 +60,7 @@ export default function SponsorsSection() {
         {/* Les 3 Packs en DT */}
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           {/* Pack 1 */}
-          {/* <div className="bg-[#141C18] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
+          {/* <div className="bg-[#1E1812] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
                 Dotation Produit
@@ -89,15 +89,15 @@ export default function SponsorsSection() {
                   pack: "Pack Nature (Dotation)",
                 })
               }
-              className="mt-8 block text-center py-3 rounded-xl border border-stone-700 hover:border-orange-500 text-sm font-semibold transition"
+              className="mt-8 block text-center py-3 rounded-xl border border-stone-700 hover:border-#F5C518 text-sm font-semibold transition"
             >
               Choisir ce pack
             </a>
           </div> */}
 
           {/* Pack 2 */}
-          {/* <div className="bg-[#18221D] border-2 border-orange-500 rounded-2xl p-7 flex flex-col justify-between relative">
-            <div className="absolute -top-3 right-6 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+          {/* <div className="bg-[#18221D] border-2 border-#F5C518 rounded-2xl p-7 flex flex-col justify-between relative">
+            <div className="absolute -top-3 right-6 bg-#F5C518 text-white text-xs font-bold px-3 py-1 rounded-full">
               Le plus demandé
             </div>
             <div>
@@ -133,14 +133,14 @@ export default function SponsorsSection() {
                   pack: "Pack Camp Partner (1 200 DT)",
                 })
               }
-              className="mt-8 block text-center py-3 rounded-xl bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold transition"
+              className="mt-8 block text-center py-3 rounded-xl bg-#F5C518 hover:bg-orange-600 text-white text-sm font-bold transition"
             >
               Devenir Camp Partner
             </a>
           </div> */}
 
           {/* Pack 3 */}
-          {/* <div className="bg-[#141C18] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
+          {/* <div className="bg-[#1E1812] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
                 Exclusivité Édition
@@ -186,7 +186,7 @@ export default function SponsorsSection() {
         {/* Formulaire rapide marque */}
         <div
           id="contact-sponsor"
-          className="max-w-3xl mx-auto bg-[#141C18] border border-stone-800 rounded-3xl p-6 sm:p-10"
+          className="max-w-3xl mx-auto bg-[#1E1812] border border-stone-800 rounded-3xl p-6 sm:p-10"
         >
           <h3 className="text-2xl font-black mb-2">
             Discutons d'un partenariat
@@ -223,7 +223,7 @@ export default function SponsorsSection() {
                 onChange={(e) =>
                   setSponsorForm({ ...sponsorForm, company: e.target.value })
                 }
-                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
               />
               <input
                 type="text"
@@ -236,7 +236,7 @@ export default function SponsorsSection() {
                     contactName: e.target.value,
                   })
                 }
-                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
               />
               <input
                 type="tel"
@@ -246,14 +246,14 @@ export default function SponsorsSection() {
                 onChange={(e) =>
                   setSponsorForm({ ...sponsorForm, phone: e.target.value })
                 }
-                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
               />
               {/* <select
                 value={sponsorForm.pack}
                 onChange={(e) =>
                   setSponsorForm({ ...sponsorForm, pack: e.target.value })
                 }
-                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
               >
                 <option>Pack Nature (Dotation)</option>
                 <option>Pack Camp Partner (1 200 DT)</option>
@@ -267,7 +267,7 @@ export default function SponsorsSection() {
                 onChange={(e) =>
                   setSponsorForm({ ...sponsorForm, message: e.target.value })
                 }
-                className="sm:col-span-2 bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                className="sm:col-span-2 bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
               />
               <button>Contacter l'équipe Partenariats</button>
             </form>

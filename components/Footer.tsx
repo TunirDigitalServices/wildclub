@@ -1,5 +1,8 @@
 import React from 'react';
-import { Flame, Mail, ArrowUpRight } from 'lucide-react';
+import { 
+    // Flame,
+     Mail, ArrowUpRight } from 'lucide-react';
+
 
 export default function Footer() {
   return (
@@ -12,9 +15,9 @@ export default function Footer() {
               href="#"
               className="inline-flex items-center gap-2 font-black tracking-wider text-lg text-stone-100"
             >
-              <Flame className="w-5 h-5 text-orange-500" />
+              {/* <Flame className="w-5 h-5 text-#F5C518" /> */}
               <span>
-                WILD CLUB<span className="text-orange-500">.TN</span>
+                WILD CLUB.TN
               </span>
             </a>
             <p className="text-xs text-stone-500 mt-1.5">
@@ -54,7 +57,7 @@ export default function Footer() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-4 h-4 text-orange-500"
+                className="w-4 h-4 text-#F5C518"
               >
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -68,7 +71,7 @@ export default function Footer() {
               href="mailto:wildclub.tn@gmail.com"
               className="inline-flex items-center gap-1.5 text-stone-200 hover:text-orange-400 transition font-medium"
             >
-              <Mail className="w-4 h-4 text-orange-500" />
+              <Mail className="w-4 h-4 text-#F5C518" />
               <span>wildclub.tn@gmail.com</span>
             </a>
           </div>

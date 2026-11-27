@@ -28,13 +28,13 @@ export default function EventSection() {
   return (
     <section
       id="event"
-      className="py-20 bg-[#0F1512] text-stone-100 border-y border-stone-800/70"
+      className="py-20 bg-[#14100C] text-stone-100 border-y border-stone-800/70"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête de l'événement */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
-            <span className="text-orange-500 font-bold text-sm uppercase tracking-widest">
+            <span className="text-#F5C518 font-bold text-sm uppercase tracking-widest">
               Édition Spéciale
             </span>
             <h2 className="text-3xl sm:text-5xl font-black mt-2">
@@ -59,12 +59,12 @@ export default function EventSection() {
             alt="Summer in December by Wild Club Tunisie"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0F1512]/70 via-transparent to-transparent pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#14100C]/70 via-transparent to-transparent pointer-events-none" />
         </div>
         {/* Programme en 3 étapes */}
         <div className="grid md:grid-cols-3 gap-6 mb-16">
-          <div className="bg-[#141C18] p-7 rounded-2xl border border-stone-800">
-            <div className="w-12 h-12 rounded-xl bg-orange-500/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
+          <div className="bg-[#1E1812] p-7 rounded-2xl border border-stone-800">
+            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
               01
             </div>
             <h3 className="text-xl font-bold mb-3">
@@ -77,8 +77,8 @@ export default function EventSection() {
             </p>
           </div>
 
-          <div className="bg-[#141C18] p-7 rounded-2xl border border-stone-800">
-            <div className="w-12 h-12 rounded-xl bg-orange-500/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
+          <div className="bg-[#1E1812] p-7 rounded-2xl border border-stone-800">
+            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
               02
             </div>
             <h3 className="text-xl font-bold mb-3">La Soirée : Feu & Vibe</h3>
@@ -89,8 +89,8 @@ export default function EventSection() {
             </p>
           </div>
 
-          <div className="bg-[#141C18] p-7 rounded-2xl border border-stone-800">
-            <div className="w-12 h-12 rounded-xl bg-orange-500/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
+          <div className="bg-[#1E1812] p-7 rounded-2xl border border-stone-800">
+            <div className="w-12 h-12 rounded-xl bg-#F5C518/15 text-orange-400 flex items-center justify-center font-black text-lg mb-5">
               03
             </div>
             <h3 className="text-xl font-bold mb-3">
@@ -107,7 +107,7 @@ export default function EventSection() {
         {/* Formulaire de pré-inscription membre */}
         <div
           id="inscription"
-          className="max-w-3xl mx-auto bg-[#141C18] border border-stone-800 rounded-3xl p-6 sm:p-10 shadow-2xl"
+          className="max-w-3xl mx-auto bg-[#1E1812] border border-stone-800 rounded-3xl p-6 sm:p-10 shadow-2xl"
         >
           <div className="text-center mb-8">
             <h3 className="text-2xl sm:text-3xl font-black">
@@ -152,7 +152,7 @@ export default function EventSection() {
                   onChange={(e) =>
                     setMemberForm({ ...memberForm, fullName: e.target.value })
                   }
-                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
                 />
               </div>
 
@@ -168,7 +168,7 @@ export default function EventSection() {
                   onChange={(e) =>
                     setMemberForm({ ...memberForm, whatsapp: e.target.value })
                   }
-                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
                 />
               </div>
 
@@ -184,7 +184,7 @@ export default function EventSection() {
                   onChange={(e) =>
                     setMemberForm({ ...memberForm, instagram: e.target.value })
                   }
-                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
                 />
               </div>
 
@@ -200,7 +200,7 @@ export default function EventSection() {
                   onChange={(e) =>
                     setMemberForm({ ...memberForm, city: e.target.value })
                   }
-                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
                 />
               </div>
 
@@ -213,7 +213,7 @@ export default function EventSection() {
                   onChange={(e) =>
                     setMemberForm({ ...memberForm, level: e.target.value })
                   }
-                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
                 >
                   <option>Débutant (1ère expérience)</option>
                   <option>Intermédiaire (Quelques sorties)</option>
@@ -230,7 +230,7 @@ export default function EventSection() {
                   onChange={(e) =>
                     setMemberForm({ ...memberForm, hasTent: e.target.value })
                   }
-                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
+                  className="w-full bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
                 >
                   <option>Non, besoin de place en tente</option>
                   <option>Oui, j'ai ma propre tente</option>
@@ -241,7 +241,7 @@ export default function EventSection() {
               <div className="sm:col-span-2 pt-2">
                 <button
                   type="submit"
-                  className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full bg-#F5C518 hover:bg-orange-600 text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   Envoyer ma demande d'inscription

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Flame, Tent, Sparkles, Menu, X } from "lucide-react";
+import { Tent, Menu, X } from "lucide-react";
 import EventSection from "./EventSection";
 import CommunitySection from "./CommunitySection";
 import SponsorsSection from "./SponsorsSection";
@@ -11,33 +11,33 @@ export default function WildClubLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen font-sans">
+    <div className="min-h-screen bg-[#14100C] text-[#FFFDF7]">
       {/* NAVBAR */}
-      <nav className="fixed top-0 w-full z-50 bg-[#0B0F0D]/85 backdrop-blur-md border-b border-stone-800/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <a
-            href="#"
-            className="flex items-center gap-2 font-black tracking-wider text-xl  text-stone-300"
-          >
-            <Flame className="w-6 h-6 text-orange-500" />
-            <span>
-              WILD CLUB.TN
+      <nav className="fixed top-0 w-full z-50 bg-[#14100C]/85 backdrop-blur-md border-b border-amber-500/15">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
+          {/* Signature Logo style affiche */}
+          <a href="#" className="flex flex-col leading-none group">
+            <span className="font-script text-[#F5C518] text-lg sm:text-xl -mb-1">
+              Life Hits Different With
+            </span>
+            <span className="font-display tracking-wider text-2xl sm:text-3xl text-[#FFFDF7]">
+              WILD CLUB
             </span>
           </a>
 
-          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-300">
-            <a href="#event" className="hover:text-orange-400 transition">
+          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#D6CFC2]">
+            <a href="#event" className="hover:text-[#F5C518] transition">
               Summer in December
             </a>
-            <a href="#communaute" className="hover:text-orange-400 transition">
+            <a href="#communaute" className="hover:text-[#F5C518] transition">
               L'Esprit & Médias
             </a>
-            <a href="#sponsors" className="hover:text-orange-400 transition">
-              Devenir Sponsor
+            <a href="#sponsors" className="hover:text-[#F5C518] transition">
+              Partenaires
             </a>
             <a
               href="#inscription"
-              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full font-semibold transition"
+              className="bg-[#F5C518] hover:bg-[#E0B10B] text-[#14100C] px-5 py-2.5 rounded-full font-bold transition"
             >
               Rejoindre l'Édition
             </a>
@@ -46,44 +46,40 @@ export default function WildClubLanding() {
           <button
             type="button"
             aria-label="Menu"
-            className="md:hidden text-stone-300"
+            className="md:hidden text-[#FFFDF7]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden bg-[#111714] border-b border-stone-800 px-4 py-4 space-y-3">
+          <div className="md:hidden bg-[#1E1812] border-b border-amber-500/20 px-4 py-4 space-y-3">
             <a
               href="#event"
               onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-stone-200"
+              className="block py-2 text-[#FFFDF7]"
             >
               Summer in December
             </a>
             <a
               href="#communaute"
               onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-stone-200"
+              className="block py-2 text-[#FFFDF7]"
             >
               L'Esprit & Médias
             </a>
             <a
               href="#sponsors"
               onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-stone-200"
+              className="block py-2 text-[#FFFDF7]"
             >
-              Devenir Sponsor
+              Partenaires
             </a>
             <a
               href="#inscription"
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-center bg-orange-500 text-white py-2.5 rounded-lg font-semibold"
+              className="block text-center bg-[#F5C518] text-[#14100C] py-2.5 rounded-lg font-bold"
             >
               S'inscrire maintenant
             </a>
@@ -91,67 +87,57 @@ export default function WildClubLanding() {
         )}
       </nav>
 
-      {/* HERO SECTION */}
-      <header className="relative pt-28 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+      {/* HERO SECTION — GOLDEN HOUR */}
+      <header className="relative pt-32 pb-24 md:pt-44 md:pb-36 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {/* Remplace par "/cover-wildclub.jpg" une fois ton visuel ajouté dans le dossier /public */}
           <img
             src="/images/hero-cover.jpg"
-            alt="Campement nocturne Wild Club Tunisie"
-            className="w-full h-full object-cover opacity-45"
+            alt="Wild Club Golden Hour Tunisie"
+            className="w-full h-full object-cover opacity-45 sepia-[.25]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F0D] via-[#0B0F0D]/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#14100C]/60 via-amber-950/35 to-[#14100C]" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/15 border border-orange-500/30 text-orange-400 text-xs sm:text-sm font-semibold uppercase tracking-widest mb-6">
-            <Sparkles className="w-4 h-4" />
-            Prochaine Édition • Décembre 2026
-          </div>
+          <p className="font-script text-3xl sm:text-4xl text-[#F5C518] mb-2">
+            Life Hits Different With Wild Club
+          </p>
 
-          <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight uppercase mb-6 leading-tight">
-            L'aventure sauvage.
-            <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-200">
-              Zéro filtre. 100% Liberté.
+          <h1 className="font-serif font-black text-4xl sm:text-6xl md:text-7xl tracking-tight mb-6 leading-[1.08] text-[#FFFDF7]">
+            Enjoy the{" "}
+            <span className="font-script font-normal text-6xl sm:text-8xl md:text-9xl text-[#F5C518] px-1">
+              Summer
             </span>
+            <br />
+            In December
           </h1>
 
-          <p className="max-w-2xl mx-auto text-stone-300 text-base sm:text-lg md:text-xl mb-10 leading-relaxed">
-            La communauté tunisienne de camping authentique et d'exploration
-            outdoor. Rejoins le crew pour notre édition spéciale{" "}
-            <strong className="text-white">« Summer in December »</strong> sur
-            la côte sauvage.
+          <p className="max-w-2xl mx-auto text-[#E6DFD3] text-base sm:text-lg md:text-xl mb-10 leading-relaxed">
+            La communauté tunisienne de camping authentique, de couchers de soleil face à la mer et
+            d'aventures humaines hors des sentiers battus.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="#inscription"
-              className="w-full sm:w-auto px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-full transition flex items-center justify-center gap-2 shadow-lg shadow-orange-500/20"
+              className="w-full sm:w-auto px-8 py-4 bg-[#F5C518] hover:bg-[#E0B10B] text-[#14100C] font-bold rounded-full transition flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20"
             >
               <Tent className="w-5 h-5" />
-              Réserver ma place (Places limitées)
+              Réserver ma place
             </a>
             <a
               href="#sponsors"
-              className="w-full sm:w-auto px-8 py-4 bg-stone-900/90 hover:bg-stone-800 border border-stone-700 text-stone-100 font-semibold rounded-full transition flex items-center justify-center gap-2"
+              className="w-full sm:w-auto px-8 py-4 bg-[#1E1812]/90 hover:bg-[#2A221A] border border-amber-500/30 text-[#FFFDF7] font-semibold rounded-full transition flex items-center justify-center gap-2"
             >
-              Espace Sponsors & Partenaires
+              Devenir Partenaire
             </a>
           </div>
         </div>
       </header>
 
-      {/* SECTION 1 : ÉVÉNEMENT SUMMER IN DECEMBER */}
       <EventSection />
-
-      {/* SECTION 2 : COMMUNAUTÉ & GALERIE */}
       <CommunitySection />
-
-      {/* SECTION 3 : ESPACE SPONSORS */}
       <SponsorsSection />
-
-      {/* FOOTER */}
       <Footer />
     </div>
   );
