@@ -17,7 +17,7 @@ export default function WildClubLanding() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <a
             href="#"
-            className="flex items-center gap-2 font-black tracking-wider text-xl"
+            className="flex items-center gap-2 font-black tracking-wider text-xl  text-stone-300"
           >
             <Flame className="w-6 h-6 text-orange-500" />
             <span>
