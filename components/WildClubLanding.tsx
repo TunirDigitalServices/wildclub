@@ -49,7 +49,11 @@ export default function WildClubLanding() {
             className="md:hidden text-[#FFFDF7]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -100,7 +104,8 @@ export default function WildClubLanding() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="font-script text-3xl sm:text-4xl text-[#F5C518] mb-2">
-            Life Hits Different With <span className="font-display tracking-wider text-2xl sm:text-3xl text-[#FFFDF7]">
+            Life Hits Different With{"   "}
+            <span className="font-display tracking-wider text-2xl sm:text-3xl text-[#FFFDF7]">
               WILD CLUB
             </span>
           </p>
@@ -115,8 +120,9 @@ export default function WildClubLanding() {
           </h1>
 
           <p className="max-w-2xl mx-auto text-[#E6DFD3] text-base sm:text-lg md:text-xl mb-10 leading-relaxed">
-            La communauté tunisienne de camping authentique, de couchers de soleil face à la mer et
-            d'aventures humaines hors des sentiers battus.
+            La communauté tunisienne de camping authentique, de couchers de
+            soleil face à la mer et d'aventures humaines hors des sentiers
+            battus.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
