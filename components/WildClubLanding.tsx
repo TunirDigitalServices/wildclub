@@ -21,7 +21,7 @@ export default function WildClubLanding() {
           >
             <Flame className="w-6 h-6 text-orange-500" />
             <span>
-              WILD CLUB<span className="text-orange-500">.TN</span>
+              WILD CLUB.TN
             </span>
           </a>
 
@@ -149,7 +149,7 @@ export default function WildClubLanding() {
       <CommunitySection />
 
       {/* SECTION 3 : ESPACE SPONSORS */}
-      {/* <SponsorsSection /> */}
+      <SponsorsSection />
 
       {/* FOOTER */}
       <Footer />

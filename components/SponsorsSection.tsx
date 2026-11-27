@@ -47,14 +47,14 @@ export default function SponsorsSection() {
           </div>
 
           {/* Place 'dossier-sponsoring-wildclub.pdf' dans ton dossier /public */}
-          <a
+          {/* <a
             href="/dossier-sponsoring-wildclub.pdf"
             download
             className="inline-flex items-center justify-center gap-2 bg-stone-100 hover:bg-white text-stone-950 font-bold px-6 py-4 rounded-xl transition shrink-0"
           >
             <Download className="w-5 h-5 text-orange-600" />
             Télécharger le Dossier Sponsoring (PDF)
-          </a>
+          </a> */}
         </div>
 
         {/* Les 3 Packs en DT */}
@@ -248,7 +248,7 @@ export default function SponsorsSection() {
                 }
                 className="bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500"
               />
-              <select
+              {/* <select
                 value={sponsorForm.pack}
                 onChange={(e) =>
                   setSponsorForm({ ...sponsorForm, pack: e.target.value })
@@ -259,7 +259,7 @@ export default function SponsorsSection() {
                 <option>Pack Camp Partner (1 200 DT)</option>
                 <option>Pack Wild Title (2 500 DT)</option>
                 <option>Partenariat sur mesure</option>
-              </select>
+              </select> */}
               <textarea
                 rows={3}
                 placeholder="Type de collaboration souhaitée (Transport, Food/Café, Matériel, Cash...)"
