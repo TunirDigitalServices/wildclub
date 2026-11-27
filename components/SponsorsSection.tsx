@@ -269,12 +269,17 @@ export default function SponsorsSection() {
                 }
                 className="sm:col-span-2 bg-[#0B0F0D] border border-stone-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-#F5C518"
               />
+              <div className="sm:col-span-2 text-xs text-stone-400">
               <button
                 type="submit"
                 className="w-full bg-[#F5C518] hover:bg-orange-600 text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-2 cursor-pointer"
               >
                 Contacter l'équipe Partenariats
               </button>
+                <p className="mt-2">
+                    En cliquant sur le bouton, vous serez redirigé vers WhatsApp pour finaliser votre demande. Assurez-vous d'avoir WhatsApp installé sur votre appareil.
+                </p>
+              </div>
             </form>
           )}
         </div>
