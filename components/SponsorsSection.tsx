@@ -192,7 +192,7 @@ export default function SponsorsSection() {
             Discutons d'un partenariat
           </h3>
           <p className="text-stone-400 text-sm mb-6">
-            Laissez vos coordonnées ou sélectionnez une formule pour recevoir
+            Laissez vos coordonnées pour recevoir
             une proposition adaptée à votre marque.
           </p>
 
