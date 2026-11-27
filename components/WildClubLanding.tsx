@@ -149,7 +149,7 @@ export default function WildClubLanding() {
       <CommunitySection />
 
       {/* SECTION 3 : ESPACE SPONSORS */}
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
 
       {/* FOOTER */}
       <Footer />
