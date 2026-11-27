@@ -39,7 +39,7 @@ export default function CommunitySection() {
         {/* Les 3 Règles d'Or */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="flex items-start gap-4">
-            <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 shrink-0">
+            <div className="p-3 rounded-xl bg-emerald-500/10 text-[#F5C518] shrink-0">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
