@@ -60,7 +60,7 @@ export default function SponsorsSection() {
         {/* Les 3 Packs en DT */}
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           {/* Pack 1 */}
-          <div className="bg-[#141C18] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
+          {/* <div className="bg-[#141C18] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
                 Dotation Produit
@@ -93,10 +93,10 @@ export default function SponsorsSection() {
             >
               Choisir ce pack
             </a>
-          </div>
+          </div> */}
 
           {/* Pack 2 */}
-          <div className="bg-[#18221D] border-2 border-orange-500 rounded-2xl p-7 flex flex-col justify-between relative">
+          {/* <div className="bg-[#18221D] border-2 border-orange-500 rounded-2xl p-7 flex flex-col justify-between relative">
             <div className="absolute -top-3 right-6 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full">
               Le plus demandé
             </div>
@@ -137,10 +137,10 @@ export default function SponsorsSection() {
             >
               Devenir Camp Partner
             </a>
-          </div>
+          </div> */}
 
           {/* Pack 3 */}
-          <div className="bg-[#141C18] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
+          {/* <div className="bg-[#141C18] border border-stone-800 rounded-2xl p-7 flex flex-col justify-between">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
                 Exclusivité Édition
@@ -180,7 +180,7 @@ export default function SponsorsSection() {
             >
               Réserver l'exclusivité
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Formulaire rapide marque */}
