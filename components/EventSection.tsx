@@ -241,7 +241,7 @@ export default function EventSection() {
               <div className="sm:col-span-2 pt-2">
                 <button
                   type="submit"
-                  className="w-full bg-#F5C518 hover:bg-orange-600 text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full bg-[#F5C518] hover:bg-orange-600 text-white font-bold py-4 rounded-xl transition flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   Envoyer ma demande d'inscription

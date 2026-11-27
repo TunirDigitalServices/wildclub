@@ -26,7 +26,7 @@ export default function CommunitySection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-orange-500 font-bold text-sm uppercase tracking-widest">
+          <span className="text-[#F5C518] font-bold text-sm uppercase tracking-widest">
             Notre ADN
           </span>
           <h2 className="text-3xl sm:text-5xl font-black mt-2">PLUS QU'UN CLUB, UN CREW</h2>
@@ -52,7 +52,7 @@ export default function CommunitySection() {
           </div>
 
           <div className="flex items-start gap-4">
-            <div className="p-3 rounded-xl bg-orange-500/10 text-orange-400 shrink-0">
+            <div className="p-3 rounded-xl bg-orange-500/10 text-[#F5C518] shrink-0">
               <Users className="w-6 h-6" />
             </div>
             <div>
@@ -92,7 +92,7 @@ export default function CommunitySection() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4">
                 <span className="text-xs font-semibold text-white flex items-center gap-1.5">
-                  <Camera className="w-3.5 h-3.5 text-orange-400" />
+                  <Camera className="w-3.5 h-3.5 text-[#F5C518]" />
                   {item.label}
                 </span>
               </div>
@@ -106,7 +106,7 @@ export default function CommunitySection() {
             href="https://instagram.com"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-orange-400 hover:text-orange-300 transition"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[#F5C518] hover:text-orange-300 transition"
           >
             <Play className="w-4 h-4" />
             Voir tous nos Reels et éditions sur @wildclub.tn →
